@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Southern Region Criminal Records – RPNGC">
+    <title>Southern Region – RPNGC Criminal Record Management</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body   <section class="hero" style="background-image: linear-gradient(135deg, rgba(0,46,109,0.85) 0%, rgba(0,26,61,0.85) 100%), url('/RPNGC /images /image100.png'); background-size: cover; background-position: center; background-attachment: fixed;">
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <img src="/RPNGC /images /image100.png" alt="RPNGC Crest" class="brand-logo">
+                <span class="brand-text">RPNGC</span>
+            </div>
+            <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="southern-region.html" class="active">Southern Region</a></li>
+                <li><a href="highlands-region.html">Highlands Region</a></li>
+                <li><a href="momase-region.html">Momase Region</a></li>
+                <li><a href="islands-region.html">Islands Region</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+                <li><button class="login-btn" id="loginBtn">Login</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="breadcrumb">
+        <div class="breadcrumb-container">
+            <a href="index.html">Home</a> <span style="color:#ffff">Southern Region</span>
+        </div>
+    </nav>
+
+    <section class="region-header" style="background-image: linear-gradient(135deg, rgba(0,46,109,0.9) 0%, rgba(0,26,61,0.9) 100%), url('images/image2.jpeg'); background-size: cover; background-position: center;">
+        <div class="region-header-content">
+            <h1>Southern Region</h1>
+            <p class="region-subtitle">Criminal Records Administration for National Capital District, Central, Gulf, Milne Bay, Oro, and Western Provinces</p>
+        </div>
+    </section>
+
+    <!-- Region Overview -->
+    <section class="region-overview">
+        <div class="region-container">
+            <div class="overview-content">
+                <h2 style="color:#ffff">Regional Overview</h2>
+                <p style="color:#ffff">The Southern Region covers six provinces that form the political and strategic core of Papua New Guinea. The National Capital District houses the nation's government and serves as the central coordination hub for law enforcement operations, while the surrounding provinces manage critical maritime borders and cross-country trade corridors.</p>
+                <div class="overview-stats">
+                    <div class="stat-mini"><div class="stat-number-small">6</div><div class="stat-label-small">Provinces</div></div>
+                    <div class="stat-mini"><div class="stat-number-small">8,342</div><div class="stat-label-small">Active Cases</div></div>
+                    <div class="stat-mini"><div class="stat-number-small">24,156</div><div class="stat-label-small">Criminal Records</div></div>
+                    <div class="stat-mini"><div class="stat-number-small">156</div><div class="stat-label-small">Police Stations</div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Criminal Records Table -->
+    <section class="criminals-section">
+        <div class="region-container">
+            <h2 style="color:#ffff">Known Offenders – Southern Region</h2>
+            <p style="color:#ffff">The following records are maintained within the Southern Region criminal database. All data is fictionalised for demonstration purposes.</p>
+            <div class="criminals-table-wrap" style="color:#000">
+                <table class="criminals-table" id="criminalsTable">
+                    <thead>
+                        <tr>
+                            <th>Record ID</th>
+                            <th>Full Name</th>
+                            <th>Alias</th>
+                            <th>Province</th>
+                            <th>Offense(s)</th>
+                            <th>Status</th>
+                            <th>Risk</th>
+                            <th>Case Ref</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr data-id="SR-2026-001">
+                            <td>SR-2026-001</td>
+                            <td><strong>Moses Tari Kevau</strong></td>
+                            <td>Big Moses</td>
+                            <td>National Capital District</td>
+                            <td><span class="offense-tag">Armed Robbery</span> <span class="offense-tag">Assault with Intent</span></td>
+                            <td><span class="status-badge status-wanted">Wanted</span></td>
+                            <td><span class="risk-badge risk-high">High</span></td>
+                            <td>Case #2026-5847</td>
+                        </tr>
+                        <tr data-id="SR-2026-002">
+                            <td>SR-2026-002</td>
+                            <td><strong>Raka Henao Miria</strong></td>
+                            <td>Raka</td>
+                            <td>National Capital District</td>
+                            <td><span class="offense-tag">Drug Trafficking</span> <span class="offense-tag">Illegal Firearms</span></td>
+                            <td><span class="status-badge status-incarcerated">Incarcerated</span></td>
+                            <td><span class="risk-badge risk-high">High</span></td>
+                            <td>Case #2026-5841</td>
+                        </tr>
+                        <tr data-id="SR-2026-003">
+                            <td>SR-2026-003</td>
+                            <td><strong>Gari Vagi Oa</strong></td>
+                            <td>GVO</td>
+                            <td>Central Province</td>
+                            <td><span class="offense-tag">Theft</span> <span class="offense-tag">Breaking &amp; Entering</span></td>
+                            <td><span class="status-badge status-on-bail">On Bail</span></td>
+                            <td><span class="risk-badge risk-medium">Medium</span></td>
+                            <td>Case #2026-5839</td>
+                        </tr>
+                        <tr data-id="SR-2026-004">
+                            <td>SR-2026-004</td>
+                            <td><strong>Lepani Karo Huva</strong></td>
+                            <td>The Fisherman</td>
+                            <td>Milne Bay Province</td>
+                            <td><span class="offense-tag">Maritime Smuggling</span> <span class="offense-tag">Customs Fraud</span></td>
+                            <td><span class="status-badge status-wanted">Wanted</span></td>
+                            <td><span class="risk-badge risk-high">High</span></td>
+                            <td>Case #2026-5836</td>
+                        </tr>
+                        <tr data-id="SR-2026-005">
+                            <td>SR-2026-005</td>
+                            <td><strong>Seri Dabari Oala</strong></td>
+                            <td>Seri D</td>
+                            <td>Gulf Province</td>
+                            <td><span class="offense-tag">Border Smuggling</span> <span class="offense-tag">Trafficking in Persons</span></td>
+                            <td><span class="status-badge status-under-investigation">Under Investigation</span></td>
+                            <td><span class="risk-badge risk-high">High</span></td>
+                            <td>Case #2026-5834</td>
+                        </tr>
+                        <tr data-id="SR-2026-006">
+                            <td>SR-2026-006</td>
+                            <td><strong>Taufa Heni Mori</strong></td>
+                            <td>T-Man</td>
+                            <td>Oro Province</td>
+                            <td><span class="offense-tag">Assault</span> <span class="offense-tag">Domestic Violence</span></td>
+                            <td><span class="status-badge status-incarcerated">Incarcerated</span></td>
+                            <td><span class="risk-badge risk-medium">Medium</span></td>
+                            <td>Case #2026-5829</td>
+                        </tr>
+                        <tr data-id="SR-2026-007">
+                            <td>SR-2026-007</td>
+                            <td><strong>Bure Dagua Ovia</strong></td>
+                            <td>Western Wolf</td>
+                            <td>Western Province</td>
+                            <td><span class="offense-tag">Illegal Resource Extraction</span> <span class="offense-tag">Corruption</span></td>
+                            <td><span class="status-badge status-wanted">Wanted</span></td>
+                            <td><span class="risk-badge risk-high">High</span></td>
+                            <td>Case #2026-5820</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Provinces -->
+    <section class="provinces">
+        <div class="region-container">
+            <h2 style="color:#ffff">Provinces in the Southern Region</h2>
+            <div class="provinces-grid">
+                <div class="province-card">
+                    <h3>National Capital District</h3>
+                    <p><strong>Capital:</strong> Port Moresby</p>
+                    <p>The administrative and political centre of Papua New Guinea. Home to the highest concentration of urban crime cases and the primary national coordination hub for law enforcement.</p>
+                    <ul><li>Population: ~380,000</li><li>Active Cases: 3,200</li><li>Police Stations: 42</li></ul>
+                    <video width="100%" controls poster="/RPNGC /images /image100.png"><source src="video8.mp4" type="video/mp4"></video>
+                </div>
+                <div class="province-card">
+                    <h3>Central Province</h3>
+                    <p><strong>Capital:</strong> Konedobu</p>
+                    <p>Situated in the south-east, this province is focused on maritime security and enforcement of fishing regulations along its extensive coastline.</p>
+                    <ul><li>Population: ~260,000</li><li>Active Cases: 1,450</li><li>Police Stations: 28</li></ul>
+                    <video width="100%" controls poster="/RPNGC /images /image100.png"><source src="video10.mp4" type="video/mp4"></video>
+                </div>
+                <div class="province-card">
+                    <h3>Gulf Province</h3>
+                    <p><strong>Capital:</strong> Kerema</p>
+                    <p>A strategically important coastal province where policing efforts concentrate on cross-border trafficking prevention and illegal maritime activity.</p>
+                    <ul><li>Population: ~180,000</li><li>Active Cases: 890</li><li>Police Stations: 18</li></ul>
+                    <video width="100%" controls poster="/RPNGC /images /image100.png"><source src="video9.mp4" type="video/mp4"></video>
+                </div>
+                <div class="province-card">
+                    <h3>Milne Bay Province</h3>
+                    <p><strong>Capital:</strong> Alotau</p>
+                    <p>An eastern maritime region with dedicated coastal security units and oversight of international border crossings with the Solomon Islands.</p>
+                    <ul><li>Population: ~270,000</li><li>Active Cases: 1,320</li><li>Police Stations: 32</li></ul>
+                </div>
+                <div class="province-card">
+                    <h3>Oro Province</h3>
+                    <p><strong>Capital:</strong> Popondetta</p>
+                    <p>Borders the Solomon Islands, with extensive maritime law enforcement duties covering both coastal and inland patrol operations.</p>
+                    <ul><li>Population: ~190,000</li><li>Active Cases: 980</li><li>Police Stations: 21</li></ul>
+                </div>
+                <div class="province-card">
+                    <h3>Western Province</h3>
+                    <p><strong>Capital:</strong> Daru</p>
+                    <p>Shares a long international border with Indonesia. Law enforcement priorities centre on cross-border trafficking, smuggling, and illegal entry operations.</p>
+                    <ul><li>Population: ~210,000</li><li>Active Cases: 1,102</li><li>Police Stations: 15</li></ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard -->
+    <section class="region-dashboard">
+        <div class="region-container">
+            <h2 style="color:#ffff">Criminal Record Dashboard</h2>
+            <div class="dashboard-grid">
+                <div class="dashboard-card">
+                    <h3 style="color:#ffff">Recent Cases (Last 30 Days)</h3>
+                    <div class="case-list">
+                        <div class="case-item"><span class="case-id">Case #2026-5847</span><span class="case-type">Fraud Investigation</span><span class="case-status open">Open</span></div>
+                        <div class="case-item"><span class="case-id">Case #2026-5841</span><span class="case-type">Theft Report</span><span class="case-status closed">Closed</span></div>
+                        <div class="case-item"><span class="case-id">Case #2026-5839</span><span class="case-type">Property Crime</span><span class="case-status open">Open</span></div>
+                    </div>
+                </div>
+                <div class="dashboard-card">
+                    <h3 style="color:#ffff">Crime Statistics</h3>
+                    <div class="crime-stats">
+                        <div class="crime-stat-item"><span class="crime-label">Violent Crimes</span><span class="crime-value">245</span></div>
+                        <div class="crime-stat-item"><span class="crime-label">Property Crimes</span><span class="crime-value">1,230</span></div>
+                        <div class="crime-stat-item"><span class="crime-label">Drug-Related</span><span class="crime-value">456</span></div>
+                        <div class="crime-stat-item"><span class="crime-label">Economic Crimes</span><span class="crime-value">892</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlights -->
+    <section class="region-highlights">
+        <div class="region-container">
+            <h2 style="color:#ffff">Regional Achievements</h2>
+            <div class="highlights-grid">
+                <div class="highlight-item"><div class="highlight-icon">📈</div><h4 style="color:#ffff">Case Resolution</h4><p style="color:#ffff">87% of criminal cases resolved within 12 months of lodgement</p></div>
+                <div class="highlight-item"><div class="highlight-icon">🎯</div><h4 style="color:#ffff">Full Digital Coverage</h4><p style="color:#ffff">All 156 police stations fully equipped with the digital records system</p></div>
+                <div class="highlight-item"><div class="highlight-icon">🤝</div><h4 style="color:#ffff">Inter-Agency Sharing</h4><p style="color:#ffff">Live data-sharing links established with over 15 government agencies</p></div>
+                <div class="highlight-item"><div class="highlight-icon">🔒</div><h4 style="color:#ffff">Zero Breaches</h4><p style="color:#ffff">No confirmed data breaches recorded across five years of operation</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Other Regions -->
+    <section class="region-navigation">
+        <div class="region-container">
+            <h2 style="color:#ffff">Explore Other Regions</h2>
+            <div class="nav-links-grid">
+                <a href="highlands-region.html" class="nav-link-card"><h4 style="color:#ffff">Highlands Region</h4><p style="color:#ffff">Eastern Highlands, Simbu, Southern Highlands, Hela, Enga, Western Highlands, Jiwaka</p></a>
+                <a href="momase-region.html" class="nav-link-card"><h4 style="color:#ffff">Momase Region</h4><p style="color:#ffff">Madang, Morobe, East Sepik, West Sepik</p></a>
+                <a href="islands-region.html" class="nav-link-card"><h4 style="color:#ffff">Islands Region</h4><p style="color:#ffff">East New Britain, West New Britain, New Ireland, Bougainville, Manus</p></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section"><h4>Quick Links</h4><a href="index.html">Home</a><a href="about-us.html">About Us</a><a href="contact-us.html">Contact</a></div>
+            <div class="footer-section"><h4>Regions</h4><a href="southern-region.html">Southern Region</a><a href="highlands-region.html">Highlands Region</a><a href="momase-region.html">Momase Region</a><a href="islands-region.html">Islands Region</a></div>
+           <!-- <div class="footer-section"><h4>Follow Us</h4><div class="social-icons"><a href="#" class="social-icon">f</a><a href="#" class="social-icon">𝕏</a><a href="#" class="social-icon">in</a></div></div>
+           -->
+        </div>
+        <div class="footer-bottom"><p style="color:#ffff">&copy; 2026 Royal Papua New Guinea Constabulary. All rights reserved.</p></div>
+    </footer>
+
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="close" id="closeLogin">&times;</span>
+            <h2>Officer Login</h2>
+            <form id="loginForm" class="login-form">
+                <div class="form-group"><label for="loginUsername">Username:</label><input type="text" id="loginUsername" required></div>
+                <div class="form-group"><label for="loginPassword">Password:</label><input type="password" id="loginPassword" required></div>
+                <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/criminals.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+    // Highlight the specific row if directed from search
+    document.addEventListener('DOMContentLoaded', function () {
+        const params = new URLSearchParams(window.location.search);
+        const id = params.get('highlight');
+        if (id) {
+            const row = document.querySelector(`tr[data-id="${id}"]`);
+            if (row) {
+                row.classList.add('highlighted-row');
+                setTimeout(() => row.scrollIntoView({ behavior: 'smooth', block: 'center' }), 400);
+            }
+        }
+    });
+    </script>
+</body>
+</html>
